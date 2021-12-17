@@ -11,12 +11,13 @@ div.main {
 	width: 392px;
 	height: 305px;
 	background-image: url('./images/preview.jpg');
+	position: relative;
 }
 #main2 {
 	background-image: url('./images/preview2.jpg') !important;
 }
 div.main > img {
-	position: relative;
+	position: absolute;
     top: 119px;
     left: 156px;
 }
